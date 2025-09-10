@@ -865,6 +865,31 @@ section,
   display: inline-block;
   background-color: var(--accent-color);
 }
+.portfolio .portfolio-content h4 {
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: 400;
+  color: #ffffff;
+  display: inline-block;
+  background-color: var(--accent-color);
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-title {
+  position: absolute;
+  top: 10px;          /* adjust spacing from top */
+  left: 5px;         /* adjust spacing from left */
+  color: white;       /* text color */
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent background */
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
 
 .portfolio .portfolio-content .portfolio-info p {
   position: absolute;
